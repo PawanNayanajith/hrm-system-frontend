@@ -96,6 +96,9 @@ import { AddresponseComponent } from './pages/employee/self-service/addresponse/
 import { ViewemployeedetailsComponent } from './pages/employee/self-service/viewemployeedetails/viewemployeedetails.component';
 import { GeneralWelfareComponent } from './pages/employee/welfare/general-welfare/general-welfare.component';
 import { AddWelfareComponent } from './pages/employee/welfare/general-welfare/add-welfare/add-welfare.component';
+import { EmpViewComponent } from './pages/employee/employee-management/remuneration/salary details/emp-view/emp-view.component';
+import { AddSalaryComponent } from './pages/employee/employee-management/remuneration/salary details/add-salary/add-salary.component';
+import { HrSalaryViewComponent } from './pages/employee/employee-management/remuneration/salary details/hr-salary-view/hr-salary-view.component';
 
 @NgModule({
   declarations: [
@@ -187,7 +190,10 @@ import { AddWelfareComponent } from './pages/employee/welfare/general-welfare/ad
     AddresponseComponent,
     ViewemployeedetailsComponent,
     GeneralWelfareComponent,
-    AddWelfareComponent
+    AddWelfareComponent,
+    EmpViewComponent,
+    AddSalaryComponent,
+    HrSalaryViewComponent
   ],
   imports: [
     BrowserModule,
